@@ -6,7 +6,7 @@
         "psr-0": { "WebPT\\Composer\\": "src/" }
     },
     "extra": {
-        "class": "WebPT\\Composer\\PublicFolderInstallerPlugin",
+        "class": "WebPT\\Composer\\PublicFolderInstallerPlugin"
     },
     "require": {
         "composer-plugin-api": "1.0.0"
