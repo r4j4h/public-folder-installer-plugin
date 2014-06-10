@@ -1,5 +1,5 @@
 {
-    "name": "r4j4h/public-folder-installer-plugin",
+    "name": "WebPT/public-folder-installer-plugin",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
