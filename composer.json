@@ -1,0 +1,14 @@
+{
+    "name": "r4j4h/public-folder-installer-plugin",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": { "WebPT\\Composer\\": "src/" }
+    },
+    "extra": {
+        "class": "WebPT\\Composer\\PublicFolderInstallerPlugin",
+    },
+    "require": {
+        "composer-plugin-api": "1.0.0"
+    }
+}
