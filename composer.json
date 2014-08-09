@@ -1,5 +1,5 @@
 {
-    "name": "WebPT/public-folder-installer-plugin",
+    "name": "webpt/public-folder-installer-plugin",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
