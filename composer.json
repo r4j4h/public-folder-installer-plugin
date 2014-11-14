@@ -5,13 +5,11 @@
     "autoload": {
         "psr-0": { "WebPT\\Composer\\": "src/" }
     },
-    "extra": {
-        "class": "WebPT\\Composer\\PublicFolderInstallerPlugin"
-    },
     "require": {
         "composer-plugin-api": "1.0.0"
     },
     "extra": {
+        "class": "WebPT\\Composer\\PublicFolderInstallerPlugin"
         "branch-alias": {
             "dev-develop": "1.1.x-dev",
             "dev-master": "1.0.x-dev"
