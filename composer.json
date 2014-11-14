@@ -9,7 +9,7 @@
         "composer-plugin-api": "1.0.0"
     },
     "extra": {
-        "class": "WebPT\\Composer\\PublicFolderInstallerPlugin"
+        "class": "WebPT\\Composer\\PublicFolderInstallerPlugin",
         "branch-alias": {
             "dev-develop": "1.1.x-dev",
             "dev-master": "1.0.x-dev"
