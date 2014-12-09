@@ -41,7 +41,7 @@ when a user runs `php composer.phar install`.
         }
     ],
     "require": {
-        "webpt/emrjs": "*@dev"
+        "webpt/emrjs": "1.x*@dev"
     }
 }
 ```
