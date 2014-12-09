@@ -2,7 +2,7 @@
 
 ## Example `composer.json` File
 
-This is an example for a site. The only important parts to set in your
+This is an example for a site. The parts to set in your
 composer.json file are `"type": "public-folder"` which describes what your
 package is and `"require": { "r4j4h/public-folder-installer-plugin": "*" }` which tells composer
 to load the custom installers.
@@ -11,7 +11,7 @@ to load the custom installers.
 
 ```json
 {
-    "name": "WebPT/EMRJS",
+    "name": "webpt/emrjs",
     "type": "public-folder",
     "require": {
         "r4j4h/public-folder-installer-plugin": "*"
@@ -28,9 +28,8 @@ when a user runs `php composer.phar install`.
 
 ```json
 {
-    "name": "WebPT/app",
+    "name": "webpt/app",
     "description": "An Application",
-    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",
@@ -42,7 +41,7 @@ when a user runs `php composer.phar install`.
         }
     ],
     "require": {
-        "WebPT/EMRJS": "*@dev"
+        "webpt/emrjs": "*@dev"
     }
 }
 ```
